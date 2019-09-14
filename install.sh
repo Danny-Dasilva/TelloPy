@@ -1,1 +1,1 @@
-pip3 install tellopy
+pip install tellopy
