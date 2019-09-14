@@ -6,8 +6,6 @@ sudo apt-get install mplayer
 
 sudo apt-get install -y python-dev pkg-config
 
-sudo apt-get install -y
-libavformat-dev libavcodec-dev libavdevice-dev
-libavutil-dev libswscale-dev libavresample-dev libavfilter-dev
+sudo apt-get install -y libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-dev
 
 pip3 install av
