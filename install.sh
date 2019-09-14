@@ -1,3 +1,6 @@
+pip3 uninstall tellopy
+python3 setup.py bdist_wheel
+pip3 install dist/tellopy-*.dev*.whl --upgrade
 sudo apt-get install python3-pip
 sudo pip3 install tellopy
 sudo pip3 install pygame
