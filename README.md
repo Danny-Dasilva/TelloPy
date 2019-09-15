@@ -8,18 +8,19 @@ https://gobot.io/blog/2018/04/20/hello-tello-hacking-drones-with-go
 ![photo](files/tello-and-gamepad.png)
 
 ## How to install
-You can install stable version from PyPI.
+
 ```
-$ pip install tellopy
-```
-Or install from the source code.
-```
-$ git clone https://github.com/hanyazou/TelloPy 
+$ git clone https://github.com/Danny-Dasilva/TelloPy
 $ cd TelloPy
-$ python setup.py bdist_wheel
-$ pip install dist/tellopy-*.dev*.whl --upgrade
+$ sh install.sh
 ```
 
+## Simple example
+
+```
+$ cd tellopy/examples
+$ python3 simple.py
+```
 ## Documents
 Please see the API docstring.
 ```
