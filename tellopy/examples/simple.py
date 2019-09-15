@@ -1,3 +1,20 @@
+"""
+Example commands for Tello:
+forward
+backward
+left
+right
+up
+down
+clockwise
+counter_clockwise
+
+Created for Tech Garage
+Contributors: Dexter Dixon, Danny Dasilva
+"""
+
+
+
 from app.Drone import Drone
 
 drone = Drone()
